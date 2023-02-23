@@ -24,7 +24,56 @@ nmap -sT -p 22 192.158.236.0/24
 
 After the conclusion of the network sweep we can now proceed with an attack that will enumarate a user. As you may already have guessed I've already done such a attack/exploit. This exploit is called ssh_enumusers. To know how it works please refer to my ssh_enumuser guide right here. [🗎 ssh_enumuser guide](shh_enumusers.md#starting-the-attack). This attack is also associated with ssh as the name of the exploit may already endows. This exploit is used to ilicit responses from the ssh server, for more information please refer to my guide on ssh_enumusers. [🗎 ssh_enumusers guide](shh_enumusers.md#functionality)
 
+After successfully running the ssh_enumuser exploit you can now start with the main exploit. Meaning this will be the first step of the ssh_login exploit.
+Now the first thing you want to do is to get some sort of wordlists meaning, getting textfiles that contain passwords and usernames. These, we will use later on in the project.
 
+Now what you want to do is to start up the metasploit framework `msfconsole`. Upon successful start up of the metasploit framework you can now access the modules.
+Our module will be `auxiliary/scanner/ssh/ssh_login`. To use this module we must put a `use` tag in from of auxiliary/. This will make our command look like following. 
+
+``
+use auxiliary/scanner/ssh/shh_login
+``
+
+This will grant us access to all the options and actions that this module has. In this case we are very interessted in the `RHOSTS`, `VERBOSE`, `USER_FILE`, and `PASS_FILE` module options, optionally you can also add `STOP_ON_SUCCESS`.
+
+Now the first thing we'll do is to set the remote host, meaning we will set our target systems ip address here. This can easily be done with the following command:
+
+``
+set RHOSTS 192.168.236.155
+``
+
+Then we will siftly move onto the next command.
+The next command will return each response from the programm e.g. when the programm wasn't successful and when it was successfull. This command is the following:
+
+``
+set VERBOSE true
+``
+
+Now we will set the `USER_FILE` this will act as a sort of username database that we can use as the first piece of our log-in credentials. This will be done with the following command:
+
+``
+set USER_FILE path/to/file.txt
+``
+
+After that we will set the `PASS_FILE` this will act as a sort of password database that we can use as the first piece of our log-in credentials. This will be done with the following command:
+
+``
+set PASS_FILE path/to/file.txt
+``
+
+Now additionaly you can add the module option `STOP_ON_SUCCESS` this will stop the attack upon finding a correct match of username and password. This can be done by using the following command:
+
+``
+set STOP_ON_SUCCESS true
+``
+
+Now the only thing left is to run the attack this can be done in to ways:
+
+``
+exploit
+
+run
+``
 #### solving this exploit
 
 You can prevent the ssh_login exploit by implementing following points. These several steps are crucial to ensure safety on your SSH-server. This can all be done in the config file of the SSH file. In order to do this go to the /etc directory and then to the following subdirectories, /ssh and then open the file ssh configuration file with following command.

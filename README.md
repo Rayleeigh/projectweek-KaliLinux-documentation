@@ -8,17 +8,19 @@ This is a project that I use for my own personal gain each and every attack laun
   - [My chosen topic - Kali Linux - Hacking](#my-chosen-topic---kali-linux---hacking)
     - [Why did I choose this topic?](#why-did-i-choose-this-topic)
   - [Structure of the project](#structure-of-the-project)
-    - [Documentation](#documentation)
+    - [Documentation of installation procedures](#documentation-of-installation-procedures)
+    - [Documentation of attacks](#documentation-of-attacks)
+    - [Useful documents](#useful-documents)
     - [Downloads](#downloads)
     - [Useful links](#useful-links)
     - [Sources](#sources)
-    - [milestones](#milestones)
-    - [optional assignments](#optional-assignments)
-    - [required Hardware](#required-hardware)
-    - [Factsheet zum Projektthema](#factsheet-zum-projektthema)
-    - [Cheatsheet zum Projektthema](#cheatsheet-zum-projektthema)
-    - [Präsentation](#präsentation)
-    - [Live Video](#live-video)
+    - [Milestones](#milestones)
+    - [Optional assignments](#optional-assignments)
+    - [Required hardware](#required-hardware)
+    - [Factsheet for the subject](#factsheet-for-the-subject)
+    - [Cheatsheet for the subject](#cheatsheet-for-the-subject)
+    - [Presentation](#presentation)
+    - [Live video](#live-video)
     - [Lessons learned](#lessons-learned)
           - [disclaimer](#disclaimer)
 
@@ -46,7 +48,7 @@ As previously stated in the text above I opted for this topic because I find it 
 
 My project will be structured accordingly. The first thing must be a table of content for the different files I use throughout this project. The second point in the table of content will be useful links I used and lastly I will link all sources I used throughout this project week. The sources will also be linked in the files.
 
-### Documentation
+### Documentation of installation procedures
 
 [Kali Linux installation procedure](Dokumentation/KaliLinuxInstallation.md)
 
@@ -55,6 +57,23 @@ A quick guide on how to install Kali Linux and what services I additionally inst
 [Metasploitable installation procedure](Dokumentation/MetasploitableInstallation.md)
 
 Documentation of how I installed Metasploitable and additional services.
+
+[Windows 10 installation procedure](documentation/Windows10Installation.md)
+
+A quick guide on how to install windows 10 and some configurations I added to my virtual machine.
+
+### Documentation of attacks
+
+[Exploit documentation of ssh_enumusers](documentation/attacks/shh_enumusers.md)
+
+[Exploit documentation of ssh_login](documentation/attacks/ssh_login.md)
+
+[Exploit documentation of RDP](documentation/attacks/remotedesktop.md)
+
+[Exploit documentation of backdoor](documentation/attacks/backdoor.md)
+### Useful documents
+
+[List of standardized ports](documentation/standardizedports.md)
 
 ### Downloads
 
@@ -68,17 +87,21 @@ Documentation of how I installed Metasploitable and additional services.
 
 [Markdown video embedder](https://video-to-markdown.marcomontalbano.com)
 
+[Standardized UDP/TCP ports](https://www.iana.org/assignments/service-names-port-numbers/service-names-port-numbers.xhtml)
+
+[Markdown tables generator](https://www.tablesgenerator.com/markdown_tables)
+
 ### Sources
 
 [Metasploitable Installation Guide](https://www.youtube.com/watch?v=UjDppZRI5lw)
 
-### milestones
-### optional assignments
-### required Hardware
-### Factsheet zum Projektthema
-### Cheatsheet zum Projektthema
-### Präsentation
-### Live Video
+### Milestones
+### Optional assignments
+### Required hardware
+### Factsheet for the subject
+### Cheatsheet for the subject
+### Presentation
+### Live video
 ### Lessons learned
 
 ###### disclaimer 
