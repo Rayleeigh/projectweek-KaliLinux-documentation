@@ -16,9 +16,8 @@ This is a project that I use for my own personal gain each and every attack laun
     - [Sources](#sources)
     - [Milestones](#milestones)
     - [Optional assignments](#optional-assignments)
-    - [Required hardware](#required-hardware)
-    - [Factsheet for the subject](#factsheet-for-the-subject)
-    - [Cheatsheet for the subject](#cheatsheet-for-the-subject)
+    - [Factsheet](#factsheet)
+    - [Cheatsheet](#cheatsheet)
     - [Presentation](#presentation)
     - [Live video](#live-video)
     - [Lessons learned](#lessons-learned)
@@ -96,18 +95,49 @@ A quick guide on how to install windows 10 and some configurations I added to my
 [Metasploitable Installation Guide](https://www.youtube.com/watch?v=UjDppZRI5lw)
 
 ### Milestones
+
+| Milestone                                                    | Sub-Task                                                                | Status |
+|--------------------------------------------------------------|-------------------------------------------------------------------------|--------|
+| Milestone 1 - Install Environments and Any Required Services | Download and document Metasploitable                                    | 🟩     |
+|                                                              | Download and document Kali Linux                                        | 🟩     |
+|                                                              | Install and document any required services on Kali Linux/Metasploitable | 🟩     |
+| Milestone 2 - Test Attacks                                   | SSH                                                                     | 🟩     |
+|                                                              | Backdoor                                                                | 🟩     |
+|                                                              | Remote Desktop                                                          | 🟩     |
+|                                                              | IIS - HTTP                                                              | 🟧     |
+|                                                              | Brute Force SSH                                                         | 🟩     |
+| Milestone 3 - Document and Find Countermeasures              | Document how I performed the attack                                     | 🟧     |
+|                                                              | Document how to prevent such attack                                     | 🟧     |
+|                                                              | Document how the attack works                                           | 🟧     |
 ### Optional assignments
-### Required hardware
-### Factsheet for the subject
-### Cheatsheet for the subject
+
+| Optional Goal                       | Description                      |
+|-------------------------------------|----------------------------------|
+| WinRM Metasploitable                | Exploit WinRM on Metasploit      |
+| Android PIN Bruteforcen             | Bruteforce an Android smartphone |
+| .htaccess bruteforcen Wochenbericht | Bruteforce a website password    |
+
+### Factsheet 
+
+[Factsheet](documentation/projectfactsheet.md)
+
+### Cheatsheet 
+
+[Cheatsheet](documentation/projectcheatsheet.md)
+
 ### Presentation
+
+COMING SOON
+
 ### Live video
+
+COMING SOON
 ### Lessons learned
 
+COMING SOON
 ###### disclaimer 
 
 I will not include all steps I've made for this exploit because you could do serious harm with that knowledge and I do not condone such harmful behavior this documentation serves as a means of educating.
-
 
 ---
 
