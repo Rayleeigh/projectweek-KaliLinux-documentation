@@ -134,8 +134,10 @@ COMING SOON
 COMING SOON
 ### Lessons learned
 
+
+<br>
+
 <div>
-COMING SOON
 <font size= "1px">
 <font size= "2px"> <i>Disclaimer</i> </font><br>
 <i> I will not include all steps I've made for this exploit because you could do serious harm with that knowledge and I do not condone such harmful behavior this documentation serves as a means of educating. Never hack without consent!</i>
