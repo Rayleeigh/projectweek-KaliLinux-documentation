@@ -137,7 +137,7 @@ COMING SOON
 COMING SOON
 ###### disclaimer 
 
-*I will not include all steps I've made for this exploit because you could do serious harm with that knowledge and I do not condone such harmful behavior this documentation serves as a means of educating. Never hack without consent*
+*I will not include all steps I've made for this exploit because you could do serious harm with that knowledge and I do not condone such harmful behavior this documentation serves as a means of educating. Never hack without consent! *
 
 ---
 
