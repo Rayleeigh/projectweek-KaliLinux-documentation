@@ -134,11 +134,14 @@ COMING SOON
 COMING SOON
 ### Lessons learned
 
+<div>
 COMING SOON
-###### disclaimer 
-
-* I will not include all steps I've made for this exploit because you could do serious harm with that knowledge and I do not condone such harmful behavior this documentation serves as a means of educating. Never hack without consent! *
-
+<font size= "1px">
+<font size= "2px"> <i>Disclaimer</i> </font><br>
+<i> I will not include all steps I've made for this exploit because you could do serious harm with that knowledge and I do not condone such harmful behavior this documentation serves as a means of educating. Never hack without consent!</i>
+</font>
+</div>  
+  
 ---
 
 &copy; Rayan Lee Bopp
